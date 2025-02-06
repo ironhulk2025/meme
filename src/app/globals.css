@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color: black;
+  background: #fffbee;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+html::-webkit-scrollbar {
+  width: 0.3rem;
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar-track {
+  background: rgb(46, 46, 46);
+  border-radius: 1rem;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #2dfd12;
+  border-radius: 1rem;
+}
+
+@font-face {
+  font-family: Freshman;
+  src: local("Freshman"), url("/fonts/freshman/Freshman.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: JockeyOne-Regular;
+  src: local("JockeyOne-Regular"),
+    url("/fonts/Jockey_One/JockeyOne-Regular.ttf") format("truetype");
+}
+
+.heading {
+  position: relative;
+    display: flex;
+    text-align:  center;
+    background: var(--RAD,
+        radial-gradient(27.13% 299.74% at 50% 50%, #ffe794 0%, #c8a220 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #1c1c1c;
+    paint-order: stroke fill;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+}
+.headingMobile {
+  position: relative;
+    display: flex;
+    text-align:  center;
+    background: var(--RAD,
+        radial-gradient(27.13% 299.74% at 50% 50%, #ffe794 0%, #c8a220 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #1c1c1c;
+    paint-order: stroke fill;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+}
+
+
