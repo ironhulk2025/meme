@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const TokenCopyCard = () => {
 
-    const truncateString = (str: string, length: number = 10): string => {
+    const truncateString = (str: string, length: number = 18): string => {
         return str.length > length ? str.slice(0, length) + "..." : str;
     };
   return (
