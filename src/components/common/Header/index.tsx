@@ -8,7 +8,7 @@ const Header = () => {
    
       <header className="container mx-auto max-w-[88rem] bg-[#FFFBEE] py-[10px] px-5 md:px-[32px] rounded-[40px] flex flex-row items-center justify-between gap-[32px]">
         <div className="flex flex-row items-center justify-start gap-[32px]">
-          <p className="text-[#000] font-freshman text-[15px] headingMobile md:text-[32px] leading-[100%] heading"
+          <p className="text-[#000] font-freshman text-[18px] headingMobile md:text-[32px] leading-[100%] heading"
           
             style={{
             paintOrder:"stroke fill"
