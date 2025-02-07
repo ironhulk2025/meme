@@ -33,7 +33,7 @@ const Header = () => {
           buy{" "}
         </button>
         <div
-          className=" flex flex-row items-center gap-4 "
+          className=" md:hidden  flex flex-row items-center gap-4 "
         
         >
           {" "}
