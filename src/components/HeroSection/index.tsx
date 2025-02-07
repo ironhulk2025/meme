@@ -11,13 +11,13 @@ const HeroSection = () => {
           className="w-full h-full object-cover scale-105 "
         />
       </div>
-      <section className="w-[100vw] h-[470px] relative  md:min-h-[calc(100vh-90px)] overflow-hidden  ">
-        <div className="flex flex-col items-center justify-center absolute bottom-0 md:left-[-0px] w-[236px] h-[204px]  md:w-[702px] md:h-[606px]">
+      <section className="w-[100vw] h-[500px] relative  md:min-h-[calc(100vh-90px)] overflow-hidden  ">
+        <div className="flex flex-col items-center justify-center absolute bottom-0 md:left-[-0px] w-[200px] h-[240px]  md:w-[702px] md:h-[606px]">
           <Image
             src={"/Images/personLeft.png"}
             layout="fill"
             alt="person"
-            className="z-10 "
+            className="z-10 object-fill"
           />
           <Image
             src={"/Images/coinsLeft.png"}
