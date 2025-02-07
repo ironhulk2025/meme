@@ -26,10 +26,11 @@ const TokenCopyCard = () => {
         TICKER : $BOWL
       </p>
       <div className="flex flex-row items-center justify-center w-full gap-4">
-        <a href="https://www.dextools.io/app/en/solana/pair-explorer/CDt3B7iStNxzKm26eNGSG11QUQj6xWdUvAGDJhoyvwGm?t=1738959494706">
+        <a target="ture" href="https://www.dextools.io/app/en/solana/pair-explorer/CDt3B7iStNxzKm26eNGSG11QUQj6xWdUvAGDJhoyvwGm?t=1738959494706">
           <DeskTool />
         </a>
-        <a
+              <a
+                  target="ture"
           href="https://dexscreener.com/solana/CDt3B7iStNxzKm26eNGSG11QUQj6xWdUvAGDJhoyvwGm"
           className="w-[52px] relative h-[52px] rounded-[8px] overflow-hidden"
         >
